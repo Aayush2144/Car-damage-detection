@@ -16,8 +16,8 @@ A deep learning web application that detects vehicle damage from car images. Upl
 ## 🧠 Model Details
 
 - Architecture: ResNet50 (Transfer Learning)
-- Training Images: ~1700 images
-- Validation Accuracy: ~80%
+- Training Images: 1700 images
+- Validation Accuracy: 80%
 - Framework: TensorFlow / Keras
 
 ### Target Classes
