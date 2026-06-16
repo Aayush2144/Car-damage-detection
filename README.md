@@ -44,7 +44,7 @@ For best results:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/car-damage-detection.git
+git clone https://github.com/Aayush2144/car-damage-detection.git
 cd car-damage-detection
 ```
 
