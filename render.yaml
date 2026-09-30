@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: crashsite-vehicle-damage-ai
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
