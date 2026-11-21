@@ -2,7 +2,8 @@
 
 An explainable deep-learning vehicle damage inspection system powered by a fine-tuned **ResNet-50 CNN** and real-time **Layer4 Grad-CAM** spatial attention mapping. Drop any front or rear three-quarter vehicle photo to get an instant forensic damage assessment — including severity tier, HUD impact reticle, component checklist, driveability status, and repair cost estimate.
 
-![CrashSite Preview](app_screenshot.jpg)
+![CrashSite Preview]<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/3e42c9dc-79d1-4762-ae3a-5337f15080e8" />
+
 
 ---
 
