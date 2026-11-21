@@ -8,6 +8,8 @@ An explainable deep-learning vehicle damage inspection system powered by a fine-
 ---
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://car-damage-detection-new-a.streamlit.app)
 
+> 🚀 **Live Demo:** [Click here to launch CrashSite Forensic AI](https://car-damage-detection-new-a.streamlit.app)
+
 ---
 
 ## Key Features
