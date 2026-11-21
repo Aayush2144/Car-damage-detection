@@ -6,6 +6,26 @@ An explainable deep-learning vehicle damage inspection system powered by a fine-
 
 
 ---
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://car-damage-detection-new-a.streamlit.app)
+
+---
+
+## Key Features
+
+- **6-Class Damage Classification**:
+  - `Front Crushed` (Severe) · `Front Breakage` (Moderate) · `Front Normal` (Undamaged)
+  - `Rear Crushed` (Severe) · `Rear Breakage` (Moderate) · `Rear Normal` (Undamaged)
+- **Explainable AI (Grad-CAM + Target Reticle HUD)**:
+  - Backpropagates into the final `layer4` residual block to generate a live thermal attention overlay and peak impact bounding box (`PEAK ROI`).
+- **Forensic Diagnostic Dossier**:
+  - Top-down **Vehicle Blueprint Schematic SVG** with dynamic zone highlighting.
+  - **Driveability Safety Rating**, **Estimated Repair Cost & Labor Hours**, and **4-Point Component Checklist**.
+  - **6-Class Softmax Certainty Breakdown** + **Front vs. Rear** & **Damaged vs. Intact** split meters.
+  - One-click **JSON Telemetry Export** & **Session Inspection Log**.
+- **Bundled Validation Test Deck (`samples/`)**:
+  - Includes 18 curated validation frames across all 6 classes so visitors can test the model with one click on **Streamlit Cloud** without uploading the full 1,700-image training dataset.
+
+---
 
 ## System Architecture
 
@@ -33,24 +53,6 @@ flowchart LR
     DIAG --> Client
 ```
 
----
-
-## Key Features
-
-- **6-Class Damage Classification**:
-  - `Front Crushed` (Severe) · `Front Breakage` (Moderate) · `Front Normal` (Undamaged)
-  - `Rear Crushed` (Severe) · `Rear Breakage` (Moderate) · `Rear Normal` (Undamaged)
-- **Explainable AI (Grad-CAM + Target Reticle HUD)**:
-  - Backpropagates into the final `layer4` residual block to generate a live thermal attention overlay and peak impact bounding box (`PEAK ROI`).
-- **Forensic Diagnostic Dossier**:
-  - Top-down **Vehicle Blueprint Schematic SVG** with dynamic zone highlighting.
-  - **Driveability Safety Rating**, **Estimated Repair Cost & Labor Hours**, and **4-Point Component Checklist**.
-  - **6-Class Softmax Certainty Breakdown** + **Front vs. Rear** & **Damaged vs. Intact** split meters.
-  - One-click **JSON Telemetry Export** & **Session Inspection Log**.
-- **Bundled Validation Test Deck (`samples/`)**:
-  - Includes 18 curated validation frames across all 6 classes so visitors can test the model with one click on **Streamlit Cloud** without uploading the full 1,700-image training dataset.
-
----
 
 ## Repository Structure
 
